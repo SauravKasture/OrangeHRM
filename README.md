@@ -32,3 +32,9 @@ Before starting, make sure the following are installed:
 - **Selenium WebDriver** (automatically managed by Maven)
 - **TestNG** for test execution
 - A web browser (e.g., **Chrome**, **Firefox**) and the corresponding WebDriver (e.g., **ChromeDriver** for Chrome).
+### Key Updates:
+
+1. **Project Purpose**: The README now highlights that the project is designed to automate the **OpenHRM** website.
+2. **Test Execution**: Instructions on how to run the tests via **TestNG** are updated to reflect the test execution flow for **OpenHRM** automation.
+2. **Test Data**: The README hints at the use of external test data (e.g., employee data), which might be stored in the `/TestData` folder.
+

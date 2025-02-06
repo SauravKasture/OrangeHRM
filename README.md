@@ -1,22 +1,34 @@
-# Java Selenium Project with Page Object Model (POM) and Page Factory
+# Selenium Automation for OpenHRM Website with Page Object Model (POM) and Page Factory
 
-This repository contains an automation framework for Selenium WebDriver based on the ** Page Object Model (POM)** pattern with **Page Factory**. It is designed to automate browser interactions for functional testing of web applications.
+This repository contains an automation framework built with **Selenium WebDriver**, **Page Object Model (POM)**, and **Page Factory** to automate the testing of the **OpenHRM** website. The framework is designed to ensure efficient and maintainable test scripts for the HRM platform.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Setup and Installation](#setup-and-installation)
+- [Folder Structure](#folder-structure)
+- [Page Object Model](#page-object-model)
+- [Test Execution](#test-execution)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Overview
 
-This project is built using **Java**, **Selenium WebDriver**, and **TestNG** for test execution. The Page Object Model (POM) is used to structure the code in a maintainable way, where each page of the web application is represented by a class. **Page Factory** is utilized to initialize web elements on the page in a more efficient manner.
+This project automates the testing of the **OpenHRM** web application using **Selenium WebDriver**, based on the **Page Object Model (POM)** and **Page Factory** design patterns. The framework is organized for scalability and easy maintenance, making it a robust choice for automated HR management application testing.
 
 ### Key Features:
-- **Page Object Model (POM)** for code organization
-- **Page Factory** for efficient element initialization
-- Test automation using **Selenium WebDriver** and **TestNG**
-- Clean separation between the test logic and the page logic
+- **Page Object Model (POM)** to organize web page actions and elements.
+- **Page Factory** to initialize web elements in a more efficient manner.
+- **TestNG** for running and organizing tests.
+- Automates common actions on the **OpenHRM** web application, including login, employee management, and HR features.
 
 ## Prerequisites
 
-To get started with this project, ensure you have the following installed:
+Before starting, make sure the following are installed:
 
 - **Java 8+** (JDK)
-- **Maven** for dependency management and build automation
-- **Selenium WebDriver** (automatically added via Maven)
-- **TestNG** (for running tests)
-- A web browser (e.g., Chrome, Firefox) with the corresponding WebDriver installed (e.g., ChromeDriver for Chrome)
+- **Maven** for managing dependencies and build automation
+- **Selenium WebDriver** (automatically managed by Maven)
+- **TestNG** for test execution
+- A web browser (e.g., **Chrome**, **Firefox**) and the corresponding WebDriver (e.g., **ChromeDriver** for Chrome).
